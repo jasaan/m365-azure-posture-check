@@ -1,0 +1,65 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#roleManagement/directory/roleAssignments",
+  "value": [
+    {
+      "id": "ra-it.admin",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "it.admin@contoso.example",
+        "displayName": "it.admin"
+      }
+    },
+    {
+      "id": "ra-helpdesk.lead",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "helpdesk.lead@contoso.example",
+        "displayName": "helpdesk.lead"
+      }
+    },
+    {
+      "id": "ra-svc-backup-admin",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "svc-backup-admin@contoso.example",
+        "displayName": "svc-backup-admin"
+      }
+    },
+    {
+      "id": "ra-cfo",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "cfo@contoso.example",
+        "displayName": "cfo"
+      }
+    },
+    {
+      "id": "ra-ceo",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "ceo@contoso.example",
+        "displayName": "ceo"
+      }
+    },
+    {
+      "id": "ra-contractor_partner.example#EXT#",
+      "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+      "directoryScopeId": "/",
+      "principal": {
+        "@odata.type": "#microsoft.graph.user",
+        "userPrincipalName": "contractor_partner.example#EXT#@contoso.onmicrosoft.com",
+        "displayName": "contractor_partner.example#EXT#"
+      }
+    }
+  ]
+}

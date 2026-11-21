@@ -1,0 +1,32 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    {
+      "id": "g1",
+      "displayName": "Old Vendor",
+      "userPrincipalName": "rep_oldvendor.example#EXT#@contoso.onmicrosoft.com",
+      "createdDateTime": "2024-03-02T10:00:00Z",
+      "signInActivity": {
+        "lastSignInDateTime": "2025-01-15T09:00:00Z"
+      }
+    },
+    {
+      "id": "g2",
+      "displayName": "Auditor",
+      "userPrincipalName": "auditor_auditfirm.example#EXT#@contoso.onmicrosoft.com",
+      "createdDateTime": "2026-09-01T10:00:00Z",
+      "signInActivity": {
+        "lastSignInDateTime": "2026-11-10T14:00:00Z"
+      }
+    },
+    {
+      "id": "g3",
+      "displayName": "Never Signed In",
+      "userPrincipalName": "temp_agency.example#EXT#@contoso.onmicrosoft.com",
+      "createdDateTime": "2026-04-01T10:00:00Z",
+      "signInActivity": {
+        "lastSignInDateTime": null
+      }
+    }
+  ]
+}

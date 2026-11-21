@@ -1,0 +1,14 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
+  "value": [
+    {
+      "id": "h1",
+      "displayName": "Auditor",
+      "userPrincipalName": "auditor_auditfirm.example#EXT#@contoso.onmicrosoft.com",
+      "createdDateTime": "2026-09-01T10:00:00Z",
+      "signInActivity": {
+        "lastSignInDateTime": "2026-11-10T14:00:00Z"
+      }
+    }
+  ]
+}

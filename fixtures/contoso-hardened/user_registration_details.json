@@ -1,0 +1,29 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#reports/authenticationMethods/userRegistrationDetails",
+  "value": [
+    {
+      "userPrincipalName": "it.admin@contoso.example",
+      "isAdmin": true,
+      "isMfaRegistered": true,
+      "methodsRegistered": [
+        "fido2"
+      ]
+    },
+    {
+      "userPrincipalName": "breakglass1@contoso.example",
+      "isAdmin": true,
+      "isMfaRegistered": true,
+      "methodsRegistered": [
+        "fido2"
+      ]
+    },
+    {
+      "userPrincipalName": "alice@contoso.example",
+      "isAdmin": false,
+      "isMfaRegistered": true,
+      "methodsRegistered": [
+        "microsoftAuthenticatorPush"
+      ]
+    }
+  ]
+}
